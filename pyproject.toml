@@ -1,0 +1,18 @@
+[project]
+name = "configuration-file-manager"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "aklileseyoum",email = "aklileseyoum294@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "configuration_file_manager", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
